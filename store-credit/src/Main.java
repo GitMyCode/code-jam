@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+
 /**
  * Created by MB on 7/5/14.
  */
@@ -27,7 +28,9 @@ public class Main {
 
 
         System.out.println("End in : " + (System.currentTimeMillis()-time)+ " ms");
-        writeListToFile(list_result,WRITE);
+
+
+        //writeListToFile(list_result,WRITE);
 
 
 

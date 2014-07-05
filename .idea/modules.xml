@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Outils/Outils.iml" filepath="$PROJECT_DIR$/Outils/Outils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reverse-word/reverse-word.iml" filepath="$PROJECT_DIR$/reverse-word/reverse-word.iml" />
+      <module fileurl="file://$PROJECT_DIR$/store-credit/store-credit.iml" filepath="$PROJECT_DIR$/store-credit/store-credit.iml" />
+    </modules>
+  </component>
+</project>
+
