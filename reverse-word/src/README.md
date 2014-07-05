@@ -32,30 +32,16 @@ N = 50
 Sample
 
 
-    Input
+    input
     3
-    100
-    3
-    5 75 25
-    200
-    7
-    150 24 79 50 88 345 3
-    8
-    8
-    2 1 9 4 4 56 90 3
+    this is a test
+    foobar
+    all your base
 
     Output
-    3
-    100
-    3
-    5 75 25
-    200
-    7
-    150 24 79 50 88 345 3
-    8
-    8
-    2 1 9 4 4 56 90 3
-    Case #1: 2 3
-    Case #2: 1 4
-    Case #3: 4 5
+
+    Case #1: test a is this
+    Case #2: foobar
+    Case #3: base your all
+
 

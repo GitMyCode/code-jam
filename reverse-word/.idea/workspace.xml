@@ -110,7 +110,7 @@
           <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/README.md">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="61" column="0" selection-start="1404" selection-end="1404" vertical-scroll-proportion="0.81914896" vertical-offset="575" max-vertical-offset="1139">
+                <state line="40" column="4" selection-start="1187" selection-end="1187" vertical-scroll-proportion="0.75757575" vertical-offset="255" max-vertical-offset="901">
                   <folding />
                 </state>
               </provider>
@@ -144,7 +144,7 @@
           <file leaf-file-name="output" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/output">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="25" column="5" selection-start="7978" selection-end="7978" vertical-scroll-proportion="0.5670628" vertical-offset="91" max-vertical-offset="1802">
+                <state line="25" column="5" selection-start="7978" selection-end="7978" vertical-scroll-proportion="0.5699659" vertical-offset="91" max-vertical-offset="1802">
                   <folding />
                 </state>
               </provider>
@@ -443,7 +443,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3991462" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32977587" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3329776" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -561,7 +561,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/output">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="5" selection-start="7978" selection-end="7978" vertical-scroll-proportion="0.5670628" vertical-offset="91" max-vertical-offset="1802">
+        <state line="25" column="5" selection-start="7978" selection-end="7978" vertical-scroll-proportion="0.5699659" vertical-offset="91" max-vertical-offset="1802">
           <folding />
         </state>
       </provider>
@@ -575,7 +575,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="0" selection-start="1404" selection-end="1404" vertical-scroll-proportion="0.81914896" vertical-offset="575" max-vertical-offset="1139">
+        <state line="40" column="4" selection-start="1187" selection-end="1187" vertical-scroll-proportion="0.75757575" vertical-offset="255" max-vertical-offset="901">
           <folding />
         </state>
       </provider>
