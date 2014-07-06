@@ -66,10 +66,10 @@
     <splitter split-orientation="horizontal" split-proportion="0.5881604">
       <split-first>
         <leaf>
-          <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/alien-language/src/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="12" column="25" selection-start="290" selection-end="291" vertical-scroll-proportion="0.34634975" vertical-offset="0" max-vertical-offset="2346">
+                <state line="16" column="36" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2346">
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#1235#1243#0" expanded="true" />
@@ -77,6 +77,18 @@
                     <element signature="e#3892#3900#0" expanded="true" />
                   </folding>
                 </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/alien-language/src/README.md">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="30" column="16" selection-start="1875" selection-end="1875" vertical-scroll-proportion="0.5425532" vertical-offset="204" max-vertical-offset="986">
+                  <folding />
+                </state>
+              </provider>
+              <provider editor-type-id="MarkdownPreviewEditor">
+                <state />
               </provider>
             </entry>
           </file>
@@ -122,7 +134,7 @@
               <file leaf-file-name="output" pinned="false" current="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/alien-language/src/output">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="477" column="13" selection-start="6487" selection-end="6487" vertical-scroll-proportion="28.85765" vertical-offset="0" max-vertical-offset="8602">
+                    <state line="7" column="4" selection-start="85" selection-end="85" vertical-scroll-proportion="0.42348754" vertical-offset="0" max-vertical-offset="8602">
                       <folding />
                     </state>
                   </provider>
@@ -157,6 +169,7 @@
         <option value="$PROJECT_DIR$/alien-language/src/sample.in" />
         <option value="$PROJECT_DIR$/MyLib.jar!/MyLib.class" />
         <option value="$PROJECT_DIR$/alien-language/src/Main.java" />
+        <option value="$PROJECT_DIR$/alien-language/src/README.md" />
       </list>
     </option>
   </component>
@@ -288,8 +301,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/MyLib.jar!/" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
@@ -569,14 +582,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/alien-language/src/output">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="477" column="13" selection-start="6487" selection-end="6487" vertical-scroll-proportion="28.85765" vertical-offset="0" max-vertical-offset="8602">
+        <state line="7" column="4" selection-start="85" selection-end="85" vertical-scroll-proportion="0.42348754" vertical-offset="0" max-vertical-offset="8602">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/alien-language/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="25" selection-start="290" selection-end="291" vertical-scroll-proportion="0.34634975" vertical-offset="0" max-vertical-offset="2346">
+        <state line="16" column="36" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2346">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1235#1243#0" expanded="true" />
@@ -584,6 +597,16 @@
             <element signature="e#3892#3900#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alien-language/src/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="16" selection-start="1875" selection-end="1875" vertical-scroll-proportion="0.5425532" vertical-offset="204" max-vertical-offset="986">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
   </component>
@@ -643,7 +666,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
