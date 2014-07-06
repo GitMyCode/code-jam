@@ -28,7 +28,7 @@ Large dataset
 
 1 ≤ L ≤ 15
 1 ≤ D ≤ 5000
-1 ≤ N ≤ 500     
+1 ≤ N ≤ 500
 Sample
 
 
