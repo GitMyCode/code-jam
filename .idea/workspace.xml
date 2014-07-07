@@ -66,10 +66,10 @@
     <splitter split-orientation="horizontal" split-proportion="0.51941437">
       <split-first>
         <leaf>
-          <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/sodoku-checker/src/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="28" column="0" selection-start="757" selection-end="757" vertical-scroll-proportion="0.68489206" vertical-offset="0" max-vertical-offset="4114">
+                <state line="23" column="1" selection-start="601" selection-end="601" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4114">
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#892#900#0" expanded="true" />
@@ -78,6 +78,18 @@
                     <element signature="e#4085#4094#0" expanded="true" />
                   </folding>
                 </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/sodoku-checker/README.md">
+              <provider editor-type-id="text-editor">
+                <state line="25" column="0" selection-start="1450" selection-end="1450" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1411">
+                  <folding />
+                </state>
+              </provider>
+              <provider selected="true" editor-type-id="MarkdownPreviewEditor">
+                <state />
               </provider>
             </entry>
           </file>
@@ -145,6 +157,7 @@
         <option value="$PROJECT_DIR$/min-scalar-product/README.md" />
         <option value="$PROJECT_DIR$/sodoku-checker/sample.in" />
         <option value="$PROJECT_DIR$/sodoku-checker/src/Main.java" />
+        <option value="$PROJECT_DIR$/sodoku-checker/README.md" />
       </list>
     </option>
   </component>
@@ -837,7 +850,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sodoku-checker/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="757" selection-end="757" vertical-scroll-proportion="0.68489206" vertical-offset="0" max-vertical-offset="4114">
+        <state line="23" column="1" selection-start="601" selection-end="601" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4114">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#892#900#0" expanded="true" />
@@ -846,6 +859,16 @@
             <element signature="e#4085#4094#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sodoku-checker/README.md">
+      <provider editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="1450" selection-end="1450" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1411">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
   </component>
