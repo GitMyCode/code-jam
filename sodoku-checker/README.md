@@ -4,7 +4,8 @@ Sudoku is a popular single player game. The objective is to fill a 9x9 matrix wi
 
 
 
-![alt tag](https://code.google.com/codejam/contest/images/?image=xxx.png&p=5645889129414656&c=2929486)
+![alt tag](https://code.google.com/codejam/contest/images/?image=xxx.png&p=5645889129414656&c=2929486)      
+
 ![alt tag](https://code.google.com/codejam/contest/images/?image=yyy.png&p=5645889129414656&c=2929486)
 
 Given a completed N2xN2 Sudoku matrix, your task is to determine whether it is a valid solution. A valid solution must satisfy the following criteria:
