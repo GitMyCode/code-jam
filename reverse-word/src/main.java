@@ -16,8 +16,8 @@ public class main {
 
     static String word = "this is a test";
 
-    static String READ = "src/B-large-practice.in";
-    static String WRITE = "src/output";
+    static String READ = "reverse-word/src/B-large-practice.in";
+    static String WRITE = "reverse-word/src/output";
     public static void main(String[] args) {
 
 
@@ -49,10 +49,10 @@ public class main {
 
     public static List<String> readFileToArray(String file_name){
 
-        List<String> the_array = new ArrayList<String>();
+            List<String> the_array = new ArrayList<String>();
 
 
-        try{
+            try{
             BufferedReader bufferedReader = new BufferedReader(new FileReader(file_name));
             String line =null;
             bufferedReader.readLine();
