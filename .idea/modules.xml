@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/alien-language/alien-language.iml" filepath="$PROJECT_DIR$/alien-language/alien-language.iml" />
       <module fileurl="file://$PROJECT_DIR$/min-scalar-product/min-scalar-product.iml" filepath="$PROJECT_DIR$/min-scalar-product/min-scalar-product.iml" />
       <module fileurl="file://$PROJECT_DIR$/reverse-word/reverse-word.iml" filepath="$PROJECT_DIR$/reverse-word/reverse-word.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sodoku-checker/sodoku-checker.iml" filepath="$PROJECT_DIR$/sodoku-checker/sodoku-checker.iml" />
       <module fileurl="file://$PROJECT_DIR$/store-credit/store-credit.iml" filepath="$PROJECT_DIR$/store-credit/store-credit.iml" />
     </modules>
   </component>
