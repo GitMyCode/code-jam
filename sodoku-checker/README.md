@@ -4,7 +4,9 @@ Sudoku is a popular single player game. The objective is to fill a 9x9 matrix wi
 
 
 
+![alt tag](https://code.google.com/codejam/contest/images/?image=xxx.png&p=5645889129414656&c=2929486)      
 
+![alt tag](https://code.google.com/codejam/contest/images/?image=yyy.png&p=5645889129414656&c=2929486)
 
 Given a completed N2xN2 Sudoku matrix, your task is to determine whether it is a valid solution. A valid solution must satisfy the following criteria:
 
@@ -12,6 +14,7 @@ Each row contains each number from 1 to N2, once each.
 Each column contains each number from 1 to N2, once each.
 Divide the N2xN2 matrix into N2 non-overlapping NxN sub-matrices. Each sub-matrix contains each number from 1 to N2, once each.
 You don't need to worry about the uniqueness of the problem. Just check if the given matrix is a valid solution.
+
 
 Input
 
