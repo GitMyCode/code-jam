@@ -58,7 +58,7 @@ public class Main {
 
     public static boolean checkIntersec(int[] rope1, int[] rope2){
 
-        if(rope1[0] < rope2[1]){
+        if(rope1[0] < rope2[0]){
             if(rope1[1] > rope2[1]){
                 return true;
             }
