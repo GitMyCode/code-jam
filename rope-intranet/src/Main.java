@@ -16,12 +16,12 @@ public class Main {
     static String WRITE = "rope-intranet/src/output";
 
     public static void main(String[] args) throws Exception{
-        Scanner sc = new Scanner( new FileReader(SMALL_READ));
+        Scanner sc = new Scanner( new FileReader(LARGE_READ));
 
         FileWriter fw = new FileWriter(WRITE);
 
         int nb_cases = sc.nextInt();
-        for(int i=0; i< nb_cases; i++){
+        for(int i_case=0; i_case< nb_cases; i_case++){
 
             int nb_rope = sc.nextInt();
             ArrayList<int[]> intranet = new ArrayList<int[]>();
@@ -46,7 +46,7 @@ public class Main {
                     }
                 }
             }
-            fw.write("Case #"+ (i+1) + ": "+count + "\n" );
+            fw.write("Case #"+ (i_case+1) + ": "+count + "\n" );
 
             System.out.println("Count: " +count);
             System.out.println();
