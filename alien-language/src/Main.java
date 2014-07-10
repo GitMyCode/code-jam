@@ -98,7 +98,7 @@ public class Main {
 
                 if(list_pattern.get(i).charAt(index) == '('){
                     //get the pattern between ( )
-                   splited_pattern[j] = list_pattern.get(i).substring(index+1,list_pattern.get(i).indexOf(')',index+1));
+                    splited_pattern[j] = list_pattern.get(i).substring(index+1,list_pattern.get(i).indexOf(')',index+1));
 
                     //the +2 is to account for the ( )
                     index += splited_pattern[j].length()+2;
