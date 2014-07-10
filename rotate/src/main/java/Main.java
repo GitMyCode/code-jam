@@ -9,8 +9,8 @@ public class Main {
 
     static String SAMPLE = "rotate/src/main/java/sample.in";
 
-    int dy[] = {0,1,1,1};
-    int dx[] = {1,0,1,-1};
+    static int dy[] = {0,1,1,1};
+    static int dx[] = {1,0,1,-1};
     public static void main(String[] args) throws Exception{
 
         Scanner in = new Scanner(new FileReader(SAMPLE));
@@ -48,5 +48,15 @@ public class Main {
             }
             while (move>=0){ tab[i][move] = '.';move--;}
         }
+    }
+
+
+    public static boolean check(char[][] tab,int x, int y, int K, char player){
+
+        for(int i=0; i<K; i++)
+            if(tab[x + (i*dx[K])][y +(i*dy[K])] != player){
+                return false;
+            }
+        return true;
     }
 }
