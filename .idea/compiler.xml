@@ -22,7 +22,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="fibonacci" />
         <module name="file-fix-it" />
+        <module name="make-it-smooth" />
         <module name="rotate" />
       </profile>
     </annotationProcessing>

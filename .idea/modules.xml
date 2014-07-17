@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Outils/Outils.iml" filepath="$PROJECT_DIR$/Outils/Outils.iml" />
       <module fileurl="file://$PROJECT_DIR$/alien-language/alien-language.iml" filepath="$PROJECT_DIR$/alien-language/alien-language.iml" />
       <module fileurl="file://$PROJECT_DIR$/file-fix-it/file-fix-it.iml" filepath="$PROJECT_DIR$/file-fix-it/file-fix-it.iml" />
+      <module fileurl="file://$PROJECT_DIR$/make-it-smooth/make-it-smooth.iml" filepath="$PROJECT_DIR$/make-it-smooth/make-it-smooth.iml" />
       <module fileurl="file://$PROJECT_DIR$/min-scalar-product/min-scalar-product.iml" filepath="$PROJECT_DIR$/min-scalar-product/min-scalar-product.iml" />
       <module fileurl="file://$PROJECT_DIR$/reverse-word/reverse-word.iml" filepath="$PROJECT_DIR$/reverse-word/reverse-word.iml" />
       <module fileurl="file://$PROJECT_DIR$/rope-intranet/rope-intranet.iml" filepath="$PROJECT_DIR$/rope-intranet/rope-intranet.iml" />

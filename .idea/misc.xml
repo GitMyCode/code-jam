@@ -9,6 +9,8 @@
       <list>
         <option value="$PROJECT_DIR$/file-fix-it/pom.xml" />
         <option value="$PROJECT_DIR$/rotate/pom.xml" />
+        <option value="$PROJECT_DIR$/make-it-smooth/pom.xml" />
+        <option value="$PROJECT_DIR$/../code-shed/pom.xml" />
       </list>
     </option>
   </component>
