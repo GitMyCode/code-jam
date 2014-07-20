@@ -25,6 +25,7 @@
         <module name="fibonacci" />
         <module name="file-fix-it" />
         <module name="make-it-smooth" />
+        <module name="osmos" />
         <module name="rotate" />
       </profile>
     </annotationProcessing>
