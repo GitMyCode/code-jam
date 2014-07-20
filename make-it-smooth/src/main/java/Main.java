@@ -26,7 +26,6 @@ public class Main {
 
     public static List<Integer> pixels;
     public static int[] key;
-    //public static Map<Key,Integer> memo = new TreeMap<Key, Integer>();
 
     public static int[][] memo = new int[101][257];
 
@@ -73,16 +72,6 @@ public class Main {
 
     }
 
-    public static int solve(){
-        int ret = 1000000;
-        for(int i=0; i<256; i++){// pour chaque valeur possible de n
-            for(int j=0;j<N;j++){ // pour tout les n
-                int res = solve(j+1,i) + Math.abs(pixels.get(j)- i) + j * Del; //
-                ret = Math.min(ret, res);
-            }
-        }
-        return ret;
-    }
 
     public static int solve (int pos, int last){
         if (pos == N) return 0;
@@ -107,57 +96,4 @@ public class Main {
         return ret;
     }
 
-/*
-    public static int solve(int pos, int last){
-
-        if(pos == N) return 0;
-
-        int best;
-
-       Key  key = new Key(pos,last);
-        if(memo.containsKey(key)){
-
-            best = memo.get(key);
-                return best;
-        }
-        best = solve(pos+1, last) + Del;
-
-        for(int i=0; i< 256; i++){
-
-            if(last == 256 || Math.abs(last - i) <= M){
-
-
-                best = Math.min(best,solve(pos+1, i) + Math.abs(i - pixels.get(pos))  );
-                best = Math.min(best, solve(pos,i)  + Ins );
-            }
-
-        }
-        memo.put(key,best);
-        return best;
-    }*/
-
-    public static int nb_insert(int p, int q, int cost){
-
-        return (Math.abs(q-p)%cost );
-    }
-
-    private static class Key implements Comparable<Key>{
-        int pos;
-        int last;
-
-        public Key(int pos1,int last1){
-            pos = pos1;
-            last = last1;
-        }
-
-        @Override
-        public int compareTo(Key o) {
-            if(o.pos < pos)
-                return 1;
-            else if (o.pos > pos){
-                return -1;
-            }
-            return 0;
-        }
-    }
 }
