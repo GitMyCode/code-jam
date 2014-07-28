@@ -10,6 +10,7 @@ object Test {
   //val SAMPLE ="diamond-failling-scala/src/main/scala/sample.in"
   val SAMPLE ="src/main/scala/sample.in"
   val SMALL ="src/main/scala/B-small-practice.in"
+  val LARGE ="src/main/scala/B-large-practice.in"
   val OUT ="src/main/scala/output"
 
   var N:Int = _
@@ -27,19 +28,31 @@ object Test {
 
     val nb_cases = in.nextInt()
 
-    for(i <-0 until nb_cases by 1){
+    for(i <-0 until nb_cases by 1) {
 
       N = in.nextInt()
       X = in.nextInt()
       Y = in.nextInt()
 
       hits = 0
-      total =0
-      var field = collection.mutable.Map[(Int,Int),Int]()
-      solve(0,field)
-      val result:Float =hits.toFloat/total.toFloat
+      total = 0
+      var field = collection.mutable.Map[(Int, Int), Int]()
+      var result = 0.toFloat;
+
+      var t = getT()
+
+      val abs_pos = Math.abs(X) + Math.abs(Y)
+      if(abs_pos < t){
+        result = 1.toFloat
+      }else if (abs_pos > t){
+        result = 0.toFloat
+      }else{
+        solve(0, field)
+        result = hits.toFloat/total.toFloat
+      }
+
       println("Case #"+(i+1)+": "+result)
-      //println("hits :"+hits+" total :"+total)
+     // println("hits :"+hits+" total :"+total + " test:" + test)
       out.write("Case #"+(i+1)+": "+result+"\n")
 
 
@@ -51,10 +64,23 @@ object Test {
 
   }
 
+  def getT(): Int = {
+    var t=0;
+    var n = N
+    while(true){
+      if(n <= (2*t+1)){
+        return t
+      }
+      n -= 2*t+1
+      t += 2
+    }
+    return t
+  }
+
 
   def solve(i_diamond :Int, field:collection.mutable.Map[(Int,Int),Int]){
 
-    if( i_diamond == N) {
+    if( i_diamond == N ) {
       if( field.contains(X,Y)) {
         hits += 1
       }
@@ -117,6 +143,26 @@ object Test {
     return y
   }
 
+  def is_sure_win(): Boolean ={
+    var a: Double = N*2
+    val b:Double = Math.sqrt(a)
+    val c = b.toInt
+    if (Math.abs(Y)+ Math.abs(X) < c-1){
+      return true
+    }else{
+      false
+    }
+  }
+  def is_sure_lost(): Boolean ={
+    var a: Double = N*2
+    val b:Double = Math.sqrt(a)
+    val c = b.toInt
+    if (Math.abs(Y)+ Math.abs(X) > c+1){
+      return true
+    }else{
+      false
+    }
+  }
 
 
 
