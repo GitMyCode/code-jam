@@ -1,5 +1,6 @@
 import java.awt.*;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.TreeMap;
@@ -11,6 +12,8 @@ public class diamonds {
 
 
     static public String SAMPLE = "failling-diamonds/src/sample.in";
+    static public String SMALL = "failling-diamonds/src/B-small-practice.in";
+    static public String OUT = "failling-diamonds/src/output";
 
     static public int N ;
     static public int position[];
@@ -27,6 +30,8 @@ public class diamonds {
 
 
         Scanner in = new Scanner(new FileReader(SAMPLE));
+        FileWriter out = new FileWriter(OUT);
+
         int nb_cases = in.nextInt();
 
         for(int i_case=0; i_case < nb_cases ; i_case++){
@@ -35,8 +40,8 @@ public class diamonds {
             position = new int[2];
             position[0] = in.nextInt();
             position[1] = in.nextInt();
-            int[][] field = new int[N+50][N+50];
-            X = N/2 +1;
+            int[][] field = new int[1500][1500];
+            X = 1500/2 +1;
             Y = 0;
             position[0] = position[0] + X;
 
@@ -48,7 +53,12 @@ public class diamonds {
             test=0;
             recurse = 0;
             int chances = find_chances(0,field);
-            System.out.println("Case #"+(i_case+1)+": hits: " +chances + "   nbRecurs: "+recurse + "                    position :"+position[0]+" - "+position[1] +"  test:"+test );
+            float a = test;
+            float b= recurse;
+            float per = a/b;
+           // System.out.println("Case #"+(i_case+1)+": hits: " +chances + "   nbRecurs: "+recurse + "                    position :"+position[0]+" - "+position[1] +"  test:"+test +"res:"+per);
+            System.out.println("Case #"+(i_case+1)+": "+per);
+            out.write("Case #"+(i_case+1)+": "+per+"\n");
         }
 
 
@@ -144,6 +154,31 @@ public class diamonds {
         return current;
     }
 
+    public class Key {
 
+        private final int x;
+        private final int y;
+
+        public Key(int x, int y) {
+            this.x = x;
+            this.y = y;
+        }
+
+        @Override
+        public boolean equals(Object o) {
+            if (this == o) return true;
+            if (!(o instanceof Key)) return false;
+            Key key = (Key) o;
+            return x == key.x && y == key.y;
+        }
+
+        @Override
+        public int hashCode() {
+            int result = x;
+            result = 31 * result + y;
+            return result;
+        }
+
+    }
 
 }
