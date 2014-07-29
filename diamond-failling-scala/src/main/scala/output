@@ -20,8 +20,8 @@ Case #19: 0.0
 Case #20: 1.0
 Case #21: 0.0
 Case #22: 0.0
-Case #23: 0.0
-Case #24: 0.0
+Case #23: 0.5
+Case #24: 0.5
 Case #25: 1.0
 Case #26: 1.0
 Case #27: 1.0
@@ -63,11 +63,11 @@ Case #62: 0.0625
 Case #63: 0.0
 Case #64: 0.0
 Case #65: 0.0
-Case #66: 0.0
+Case #66: 0.5
 Case #67: 0.0
-Case #68: 0.0
+Case #68: 0.5
 Case #69: 1.0
-Case #70: 0.0
+Case #70: 0.5
 Case #71: 1.0
 Case #72: 1.0
 Case #73: 0.875
@@ -76,7 +76,7 @@ Case #75: 1.0
 Case #76: 0.75
 Case #77: 0.0
 Case #78: 0.5
-Case #79: 0.0
+Case #79: 0.5
 Case #80: 1.0
 Case #81: 0.0
 Case #82: 1.0

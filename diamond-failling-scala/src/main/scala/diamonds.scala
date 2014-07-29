@@ -66,14 +66,16 @@ object Test {
 
   def getT(): Int = {
     var t=0;
-    var n = N
+    var n = 0
+
     while(true){
-      if(n <= (2*t+1)){
+      n += 2*t+1
+      if(n >= N){
         return t
       }
-      n -= 2*t+1
-      t += 2
+      t+=2
     }
+
     return t
   }
 
@@ -142,44 +144,6 @@ object Test {
     }
     return y
   }
-
-  def is_sure_win(): Boolean ={
-    var a: Double = N*2
-    val b:Double = Math.sqrt(a)
-    val c = b.toInt
-    if (Math.abs(Y)+ Math.abs(X) < c-1){
-      return true
-    }else{
-      false
-    }
-  }
-  def is_sure_lost(): Boolean ={
-    var a: Double = N*2
-    val b:Double = Math.sqrt(a)
-    val c = b.toInt
-    if (Math.abs(Y)+ Math.abs(X) > c+1){
-      return true
-    }else{
-      false
-    }
-  }
-
-
-
-
-
-  case class Key(private val value: Int) {
-
-    override def hashCode() = value
-
-    override def equals(other: Any) = other match {
-      case that: Key => that.value == value
-      case _ => false
-    }
-  }
-
-
-
 
 
 
