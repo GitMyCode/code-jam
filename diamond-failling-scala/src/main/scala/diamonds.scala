@@ -20,10 +20,11 @@ object Test {
   var hits:Int = _
   var total:Int =_
 
+
   def main(args: Array[String]) {
     // for loop execution with a range
 
-    val in = new Scanner(new FileReader(SMALL))
+    val in = new Scanner(new FileReader(LARGE))
     val out = new FileWriter(OUT)
 
     val nb_cases = in.nextInt()
@@ -36,10 +37,11 @@ object Test {
 
       hits = 0
       total = 0
+
       var field = collection.mutable.Map[(Int, Int), Int]()
       var result = 0.toFloat;
 
-      var t = getT()
+      var t = getSommet()
 
       val abs_pos = Math.abs(X) + Math.abs(Y)
       if(abs_pos < t){
@@ -47,24 +49,50 @@ object Test {
       }else if (abs_pos > t){
         result = 0.toFloat
       }else{
-        solve(0, field)
+        remplir(field,t-2)
+        val n = N - field.size
+        solve(0,n, field)
         result = hits.toFloat/total.toFloat
       }
 
       println("Case #"+(i+1)+": "+result)
      // println("hits :"+hits+" total :"+total + " test:" + test)
       out.write("Case #"+(i+1)+": "+result+"\n")
-
-
-
-
     }
     in.close()
     out.close()
 
   }
+  def remplir(field:collection.mutable.Map[(Int,Int),Int],subPiramid:Int){
 
-  def getT(): Int = {
+      field.put((0,0),1)
+    if(!(subPiramid<=0)){
+      while(!field.contains(0,subPiramid)){
+        var left =  slide_to(-1,field)
+        var right = slide_to(1,field)
+        if( !left && !right){
+          val y = getYimpact(field)
+          field.put((0,y),1)
+        }
+      }
+
+    }
+
+    /* var y =0
+     for (x <- subPiramid until 0 by -1){
+         field.put((x,y),1)
+       y+=1
+     }
+     y = subPiramid
+     for (x <- 0 until -subPiramid by -1){
+       field.put((x,y),1)
+       y-=1
+     }
+ */
+  }
+
+
+  def getSommet(): Int = {
     var t=0;
     var n = 0
 
@@ -79,36 +107,45 @@ object Test {
     return t
   }
 
+  def solve2(nb_to_place:Int, field:collection.mutable.Map[(Int,Int),Int]){
+    for(i <- 0 until nb_to_place -1 by 1){
+      slide_to(-1,field)
 
-  def solve(i_diamond :Int, field:collection.mutable.Map[(Int,Int),Int]){
+    }
+
+
+
+  }
+
+  def solve(i_diamond :Int, N:Int, field:collection.mutable.Map[(Int,Int),Int]) {
 
     if( i_diamond == N ) {
       if( field.contains(X,Y)) {
         hits += 1
       }
       total +=1
-      return 0;
+      return true;
     }
-    if( i_diamond == 0 ){
+    if(false ){
       field.put((0,0),1)
-      solve(i_diamond+1, field)
+      solve(i_diamond+1,N, field)
     }else{
-      val field_rigth = collection.mutable.Map() ++= field
-      val place_right:Boolean = slide_to(-1,field_rigth)
-      if( (place_right)){
-          solve(i_diamond+1,field_rigth)
+      val field_left = collection.mutable.Map() ++= field
+      val place_left:Boolean = slide_to(-1,field_left)
+      if( (place_left)){
+          solve(i_diamond+1,N,field_left)
       }
 
-      val field_left = collection.mutable.Map() ++= field
-      val place_left = slide_to(1,field_left)
-      if(place_left){
-        solve(i_diamond+1,field_left)
+      val field_right = collection.mutable.Map() ++= field
+      val place_right = slide_to(1,field_right)
+      if(place_right){
+        solve(i_diamond+1,N,field_right)
       }
 
       if(!place_left && !place_right){
         val y = getYimpact(field)
         field.put((0,y),1)
-        solve(i_diamond+1,field)
+        solve(i_diamond+1,N,field)
       }
 
     }
