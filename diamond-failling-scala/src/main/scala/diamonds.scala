@@ -24,7 +24,7 @@ object Test {
   def main(args: Array[String]) {
     // for loop execution with a range
 
-    val in = new Scanner(new FileReader(LARGE))
+    val in = new Scanner(new FileReader(SAMPLE))
     val out = new FileWriter(OUT)
 
     val nb_cases = in.nextInt()
@@ -51,7 +51,7 @@ object Test {
       }else{
         remplir(field,t-2)
         val n = N - field.size
-        solve(0,n, field)
+        solve2(n, field)
         result = hits.toFloat/total.toFloat
       }
 
@@ -110,7 +110,18 @@ object Test {
   def solve2(nb_to_place:Int, field:collection.mutable.Map[(Int,Int),Int]){
     for(i <- 0 until nb_to_place -1 by 1){
       slide_to(-1,field)
-
+      if( field.contains(X,Y)) {
+        hits += 1
+      }
+      total +=1
+    }
+    for(i <-0 until nb_to_place -1 by 1){
+      field.remove(((0-i),(0-i) ))
+      slide_to(1,field)
+      if( field.contains(X,Y)) {
+        hits += 1
+      }
+      total +=1
     }
 
 
