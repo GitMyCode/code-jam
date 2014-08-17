@@ -4,7 +4,7 @@
 		module="diamond-failling-scala$sbt_2.10"
 		revision="1.0"
 		status="integration"
-		publication="20140814222253"
+		publication="20140817003448"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>

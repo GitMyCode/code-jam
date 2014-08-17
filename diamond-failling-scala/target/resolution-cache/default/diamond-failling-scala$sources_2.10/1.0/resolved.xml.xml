@@ -4,7 +4,7 @@
 		module="diamond-failling-scala$sources_2.10"
 		revision="1.0"
 		status="integration"
-		publication="20140814222254"
+		publication="20140817003448"
 	/>
 	<configurations>
 		<conf name="default" visibility="public" description=""/>
