@@ -613,9 +613,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.0!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.0!apply-macro.jar
-[debug] :: resolution report :: resolve 282ms :: artifacts dl 19ms
+[debug] :: resolution report :: resolve 272ms :: artifacts dl 19ms
 [debug] 	report for default#diamond-failling-scala$sbt_2.10;1.0 default produced in I:\Dropbox\PROJETS\code-jam\diamond-failling-scala\target\resolution-cache\reports\default-diamond-failling-scala$sbt_2.10-default.xml
-[debug] 	resolve done (282ms resolve - 19ms download)
+[debug] 	resolve done (272ms resolve - 19ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#diamond-failling-scala$sources_2.10;1.0
 [debug] 	confs: [default]
@@ -956,6 +956,6 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.0!precompiled-2_9_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.0!precompiled-2_9_3.jar(src)
 [debug] 	[NOT REQUIRED] org.jetbrains#sbt-structure;2.3.2!sbt-structure.jar(src)
-[debug] :: resolution report :: resolve 82ms :: artifacts dl 20ms
+[debug] :: resolution report :: resolve 91ms :: artifacts dl 19ms
 [debug] 	report for default#diamond-failling-scala$sources_2.10;1.0 default produced in I:\Dropbox\PROJETS\code-jam\diamond-failling-scala\target\resolution-cache\reports\default-diamond-failling-scala$sources_2.10-default.xml
-[debug] 	resolve done (82ms resolve - 20ms download)
+[debug] 	resolve done (91ms resolve - 19ms download)
