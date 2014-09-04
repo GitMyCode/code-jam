@@ -35,6 +35,12 @@ public class main {
         list_squares   = new ArrayList<Double>();
         Double max = Math.pow(10,7);
         solve(max);
+
+        long timer = System.currentTimeMillis();
+       System.out.println((System.currentTimeMillis() - timer));
+
+
+
         for(int i_cases = 0; i_cases<nb_cases;i_cases++){
 
             Double from = in.nextDouble();
