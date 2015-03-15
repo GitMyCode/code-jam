@@ -17,13 +17,19 @@ namespace AllYourBase
         {
 
 
-            var lines = File.ReadLines("./sample.txt");
-            foreach (var line in lines)
+            var lines = File.ReadLines("./A-large-practice.in").ToList();
+            var writer = new System.IO.StreamWriter("./result");
+
+            int nbTest =  Convert.ToInt32(lines.First());
+            lines.RemoveAt(0);
+            for (int i = 0; i < nbTest; i++)
             {
-                string ans = Answer(line);
-                Console.WriteLine(ans);
+                string ans = Answer(lines[i]);
+                writer.Write("Case #{0}: {1}\n",i+1,ans);
+ 
             }
 
+            writer.Close();
 
             Console.Read();
 
@@ -31,8 +37,10 @@ namespace AllYourBase
 
         static string Answer(string line)
         {
+            string ans = "";
             DicDigits.Clear();
             var nbDifferent = 0;
+            long  resultBase10 = 0;
             foreach (char c in line)
             {
                 if (DicDigits.ContainsKey(c))
@@ -40,12 +48,36 @@ namespace AllYourBase
                 }
                 else
                 {
-                    DicDigits[c] = nbDifferent++;
+                    if (DicDigits.Keys.Count == 0)
+                    {
+                        DicDigits[c] = 1;
+                    }else if (DicDigits.Keys.Count() == 1)
+                    {
+                        DicDigits[c] = 0;
+                    }
+                    else
+                    {
+                        DicDigits[c] = nbDifferent;
+                    }
+                    nbDifferent++;
                 }
             }
+            if (nbDifferent <= 1)
+            {
+                nbDifferent = 2;
+            }           
+            for(int i= 0; i < line.Length; i++)
+            {
+                int val = DicDigits[line[i]];
+                int exposant = line.Length - i-1;
 
+                resultBase10 = resultBase10*nbDifferent + val;
 
-            return "";
+            }
+
+            ans = resultBase10.ToString();
+
+            return ans;
         }
 
     }
