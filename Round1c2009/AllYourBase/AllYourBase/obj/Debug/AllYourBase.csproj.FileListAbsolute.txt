@@ -1,0 +1,8 @@
+C:\Users\Martin\code-jam\Round1c2009\AllYourBase\AllYourBase\bin\Debug\AllYourBase.exe.config
+C:\Users\Martin\code-jam\Round1c2009\AllYourBase\AllYourBase\bin\Debug\AllYourBase.exe
+C:\Users\Martin\code-jam\Round1c2009\AllYourBase\AllYourBase\bin\Debug\AllYourBase.pdb
+C:\Users\Martin\code-jam\Round1c2009\AllYourBase\AllYourBase\obj\Debug\AllYourBase.csprojResolveAssemblyReference.cache
+C:\Users\Martin\code-jam\Round1c2009\AllYourBase\AllYourBase\obj\Debug\AllYourBase.exe
+C:\Users\Martin\code-jam\Round1c2009\AllYourBase\AllYourBase\obj\Debug\AllYourBase.pdb
+C:\Users\Martin\code-jam\Round1c2009\AllYourBase\AllYourBase\bin\Debug\A-small-practice.in
+C:\Users\Martin\code-jam\Round1c2009\AllYourBase\AllYourBase\bin\Debug\sample.txt
