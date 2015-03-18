@@ -1,0 +1,7 @@
+C:\Users\Martin\code-jam\Round1c2009\CenterOfMass\CenterOfMass\bin\Debug\CenterOfMass.exe.config
+C:\Users\Martin\code-jam\Round1c2009\CenterOfMass\CenterOfMass\bin\Debug\CenterOfMass.exe
+C:\Users\Martin\code-jam\Round1c2009\CenterOfMass\CenterOfMass\bin\Debug\CenterOfMass.pdb
+C:\Users\Martin\code-jam\Round1c2009\CenterOfMass\CenterOfMass\obj\Debug\CenterOfMass.csprojResolveAssemblyReference.cache
+C:\Users\Martin\code-jam\Round1c2009\CenterOfMass\CenterOfMass\obj\Debug\CenterOfMass.exe
+C:\Users\Martin\code-jam\Round1c2009\CenterOfMass\CenterOfMass\obj\Debug\CenterOfMass.pdb
+C:\Users\Martin\code-jam\Round1c2009\CenterOfMass\CenterOfMass\bin\Debug\test
