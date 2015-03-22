@@ -1,0 +1,9 @@
+C:\Users\Martin\code-jam\Round1c2009\CenterOfMass\Tests\bin\Debug\test
+C:\Users\Martin\code-jam\Round1c2009\CenterOfMass\Tests\bin\Debug\Tests.dll
+C:\Users\Martin\code-jam\Round1c2009\CenterOfMass\Tests\bin\Debug\Tests.pdb
+C:\Users\Martin\code-jam\Round1c2009\CenterOfMass\Tests\bin\Debug\CenterOfMass.exe
+C:\Users\Martin\code-jam\Round1c2009\CenterOfMass\Tests\bin\Debug\CenterOfMass.pdb
+C:\Users\Martin\code-jam\Round1c2009\CenterOfMass\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+C:\Users\Martin\code-jam\Round1c2009\CenterOfMass\Tests\obj\Debug\Tests.dll
+C:\Users\Martin\code-jam\Round1c2009\CenterOfMass\Tests\obj\Debug\Tests.pdb
+C:\Users\Martin\code-jam\Round1c2009\CenterOfMass\Tests\bin\Debug\B-small-practice.in

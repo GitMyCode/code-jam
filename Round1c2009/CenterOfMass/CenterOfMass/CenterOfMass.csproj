@@ -48,6 +48,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="B-small-practice.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="test">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
