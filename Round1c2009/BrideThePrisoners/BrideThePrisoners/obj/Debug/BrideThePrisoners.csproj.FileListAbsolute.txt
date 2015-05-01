@@ -5,3 +5,10 @@ C:\Users\Martin\code-jam\Round1c2009\BrideThePrisoners\BrideThePrisoners\bin\Deb
 C:\Users\Martin\code-jam\Round1c2009\BrideThePrisoners\BrideThePrisoners\obj\Debug\BrideThePrisoners.csprojResolveAssemblyReference.cache
 C:\Users\Martin\code-jam\Round1c2009\BrideThePrisoners\BrideThePrisoners\obj\Debug\BrideThePrisoners.exe
 C:\Users\Martin\code-jam\Round1c2009\BrideThePrisoners\BrideThePrisoners\obj\Debug\BrideThePrisoners.pdb
+C:\Users\Martin\Documents\GitHub\code-jam\Round1c2009\BrideThePrisoners\BrideThePrisoners\bin\Debug\BrideThePrisoners.exe.config
+C:\Users\Martin\Documents\GitHub\code-jam\Round1c2009\BrideThePrisoners\BrideThePrisoners\obj\Debug\BrideThePrisoners.csprojResolveAssemblyReference.cache
+C:\Users\Martin\Documents\GitHub\code-jam\Round1c2009\BrideThePrisoners\BrideThePrisoners\bin\Debug\sample
+C:\Users\Martin\Documents\GitHub\code-jam\Round1c2009\BrideThePrisoners\BrideThePrisoners\bin\Debug\BrideThePrisoners.exe
+C:\Users\Martin\Documents\GitHub\code-jam\Round1c2009\BrideThePrisoners\BrideThePrisoners\bin\Debug\BrideThePrisoners.pdb
+C:\Users\Martin\Documents\GitHub\code-jam\Round1c2009\BrideThePrisoners\BrideThePrisoners\obj\Debug\BrideThePrisoners.exe
+C:\Users\Martin\Documents\GitHub\code-jam\Round1c2009\BrideThePrisoners\BrideThePrisoners\obj\Debug\BrideThePrisoners.pdb
