@@ -12,3 +12,5 @@ C:\Users\Martin\Documents\GitHub\code-jam\Round1c2009\BrideThePrisoners\BrideThe
 C:\Users\Martin\Documents\GitHub\code-jam\Round1c2009\BrideThePrisoners\BrideThePrisoners\bin\Debug\BrideThePrisoners.pdb
 C:\Users\Martin\Documents\GitHub\code-jam\Round1c2009\BrideThePrisoners\BrideThePrisoners\obj\Debug\BrideThePrisoners.exe
 C:\Users\Martin\Documents\GitHub\code-jam\Round1c2009\BrideThePrisoners\BrideThePrisoners\obj\Debug\BrideThePrisoners.pdb
+C:\Users\Martin\code-jam\Round1c2009\BrideThePrisoners\BrideThePrisoners\bin\Debug\C-small-practice.in
+C:\Users\Martin\code-jam\Round1c2009\BrideThePrisoners\BrideThePrisoners\bin\Debug\C-large-practice.in

@@ -15,42 +15,50 @@ namespace BrideThePrisoners
         private static IList<int> allPrisonersToRelease;
 
 
-        private static int[,] memo = new int[100,100];
+        private static int[,] memo = new int[10002, 10002];
 
         static void Main(string[] args)
         {
-            StreamReader sr = new StreamReader("./sample");
+            StreamReader sr = new StreamReader("./C-large-practice.in");
+            StreamWriter sw = new StreamWriter("./result");
             int nbTest = int.Parse(sr.ReadLine());
             foreach (var test in Enumerable.Range(1, nbTest))
             {
                 min = int.MaxValue;
-                memo = new int[100, 100];
-                var l = (sr.ReadLine()).Split(' ');
-                nbPrisoners = int.Parse(l[0]);
-                nbToRelease = int.Parse(l[1]);
+                memo = new int[10002, 10002];
+                var readLine = sr.ReadLine();
+                if (readLine != null)
+                {
+                    var l = readLine.Split(' ');
+                    nbPrisoners = int.Parse(l[0]);
+                    nbToRelease = int.Parse(l[1]);
+                }
 
                 var l2 = sr.ReadLine().Split(' ');
                 allPrisonersToRelease = Array.ConvertAll(l2, int.Parse);
                 allPrisonersToRelease = allPrisonersToRelease.OrderBy(o => o).ToList();
-                int ans = MinToBride(nbPrisoners, nbToRelease);
+                int ans = MinToBride(nbPrisoners);
 
                 Console.Write("Case #{0}: {1}\n", test, ans);
+                sw.Write("Case #{0}: {1}\n", test, ans);
             }
+            sr.Close();
+            sw.Close();
             Console.Read();
         }
 
-        static int MinToBride(int nbPrisoners, int nbToRelease)
+        static int MinToBride(int nbPrisoners)
         {
-            return FreePrisoner(1, nbPrisoners, 0);
+            return FreePrisoner(1, nbPrisoners);
         }
 
-        static int FreePrisoner(int left, int rigth, int index)
+        static int FreePrisoner(int left, int rigth)
         {
             if (memo[left, rigth] != 0)
                 return memo[left, rigth];
 
             int minHere = int.MaxValue;
-            var ranged = allPrisonersToRelease.Where(x => x > left && x < rigth).ToArray();
+            var ranged = allPrisonersToRelease.Where(x => x >= left && x <= rigth).ToArray();
             if (ranged.Length == 0)
             {
                 return 0;
@@ -62,11 +70,11 @@ namespace BrideThePrisoners
                 int indexPrisoner = prisonersInder;
                 int cost = (rigth - left);
 
-                cost += FreePrisoner(left, indexPrisoner, 1) + FreePrisoner(indexPrisoner, rigth , 1);
+                cost += FreePrisoner(left, indexPrisoner - 1) + FreePrisoner(indexPrisoner + 1, rigth);
                 minHere = Math.Min(cost, minHere);
             }
 
-            //memo[left, rigth] = min;
+            memo[left, rigth] = minHere;
             return minHere;
         }
     }
