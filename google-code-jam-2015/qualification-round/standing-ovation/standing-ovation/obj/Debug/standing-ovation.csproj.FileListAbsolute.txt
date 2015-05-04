@@ -1,0 +1,9 @@
+C:\Users\Martin\code-jam\google-code-jam-2015\qualification-round\standing-ovation\standing-ovation\bin\Debug\standing-ovation.exe.config
+C:\Users\Martin\code-jam\google-code-jam-2015\qualification-round\standing-ovation\standing-ovation\bin\Debug\sample.txt
+C:\Users\Martin\code-jam\google-code-jam-2015\qualification-round\standing-ovation\standing-ovation\bin\Debug\standing-ovation.exe
+C:\Users\Martin\code-jam\google-code-jam-2015\qualification-round\standing-ovation\standing-ovation\bin\Debug\standing-ovation.pdb
+C:\Users\Martin\code-jam\google-code-jam-2015\qualification-round\standing-ovation\standing-ovation\obj\Debug\standing-ovation.csprojResolveAssemblyReference.cache
+C:\Users\Martin\code-jam\google-code-jam-2015\qualification-round\standing-ovation\standing-ovation\obj\Debug\standing-ovation.exe
+C:\Users\Martin\code-jam\google-code-jam-2015\qualification-round\standing-ovation\standing-ovation\obj\Debug\standing-ovation.pdb
+C:\Users\Martin\code-jam\google-code-jam-2015\qualification-round\standing-ovation\standing-ovation\bin\Debug\A-small-practice.in
+C:\Users\Martin\code-jam\google-code-jam-2015\qualification-round\standing-ovation\standing-ovation\bin\Debug\A-large-practice.in

@@ -34,8 +34,12 @@ namespace BrideThePrisoners
                     nbToRelease = int.Parse(l[1]);
                 }
 
-                var l2 = sr.ReadLine().Split(' ');
-                allPrisonersToRelease = Array.ConvertAll(l2, int.Parse);
+                var line = sr.ReadLine();
+                if (line != null)
+                {
+                    var l2 = line.Split(' ');
+                    allPrisonersToRelease = Array.ConvertAll(l2, int.Parse);
+                }
                 allPrisonersToRelease = allPrisonersToRelease.OrderBy(o => o).ToList();
                 int ans = MinToBride(nbPrisoners);
 
