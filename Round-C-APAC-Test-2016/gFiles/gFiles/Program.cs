@@ -31,7 +31,7 @@ namespace gFiles
         /// </param>
         private static void Main(string[] args)
         {
-            using (var reader = File.OpenText("B-small-practice.in"))
+            using (var reader = File.OpenText("B-large-practice.in"))
             {
                 using (var writer = new StreamWriter("answer"))
                 {
@@ -46,7 +46,7 @@ namespace gFiles
                         for (int i = 0; i < updateStatusCount; i++)
                         {
                             var splitedLine = reader.ReadLine().Split(' ');
-                            var percent = float.Parse(splitedLine[0]);
+                            var percent = ulong.Parse(splitedLine[0]);
                             var fileCount = ulong.Parse(splitedLine[1]);
                             if (percent == 100)
                             {
@@ -60,12 +60,10 @@ namespace gFiles
                             }
                             else
                             {
-                                var lowerRange = (fileCount * 100) / (percent + 1) + 1;
-                                var higherRange = (fileCount * 100) / percent;
+                                ulong lowerRange = ((fileCount * 100) / (percent + 1)) + 1;
+                                ulong higherRange = (fileCount * 100) / percent;
                                 ranges.Add(new { lower = (ulong)lowerRange, higher = (ulong)higherRange });
                             }
-
-
 
                         }
 
@@ -87,19 +85,16 @@ namespace gFiles
                             }
                         }
 
-                        ulong fileTotal = low;
-                        if (low != top)
+                        double fileTotal = low;
+                        if (!low.Equals(top))
                         {
                             writer.Write("Case #" + caseNumber + ": -1\n");
-
                         }
                         else
                         {
                             Console.WriteLine("Case #" + caseNumber + ": " + fileTotal);
                             writer.Write("Case #" + caseNumber + ": " + fileTotal + "\n");
                         }
-
-                        
                     }
 
                     //       Console.ReadLine();
