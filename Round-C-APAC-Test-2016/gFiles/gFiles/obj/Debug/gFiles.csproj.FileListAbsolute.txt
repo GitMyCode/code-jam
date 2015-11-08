@@ -1,0 +1,9 @@
+C:\Users\Martin\REPO\code-jam\Round-C-APAC-Test-2016\gFiles\gFiles\bin\Debug\gFiles.exe.config
+C:\Users\Martin\REPO\code-jam\Round-C-APAC-Test-2016\gFiles\gFiles\bin\Debug\gFiles.exe
+C:\Users\Martin\REPO\code-jam\Round-C-APAC-Test-2016\gFiles\gFiles\bin\Debug\gFiles.pdb
+C:\Users\Martin\REPO\code-jam\Round-C-APAC-Test-2016\gFiles\gFiles\obj\Debug\gFiles.csprojResolveAssemblyReference.cache
+C:\Users\Martin\REPO\code-jam\Round-C-APAC-Test-2016\gFiles\gFiles\obj\Debug\gFiles.exe
+C:\Users\Martin\REPO\code-jam\Round-C-APAC-Test-2016\gFiles\gFiles\obj\Debug\gFiles.pdb
+C:\Users\Martin\REPO\code-jam\Round-C-APAC-Test-2016\gFiles\gFiles\bin\Debug\B-large-practice.in
+C:\Users\Martin\REPO\code-jam\Round-C-APAC-Test-2016\gFiles\gFiles\bin\Debug\practice.in
+C:\Users\Martin\REPO\code-jam\Round-C-APAC-Test-2016\gFiles\gFiles\bin\Debug\B-small-practice.in
