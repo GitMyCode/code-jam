@@ -1,0 +1,9 @@
+C:\Users\Martin\REPO\code-jam\Round-C-APAC-Test-2016\gRanks\gRanks\bin\Debug\gRanks.exe.config
+C:\Users\Martin\REPO\code-jam\Round-C-APAC-Test-2016\gRanks\gRanks\bin\Debug\A-large-practice.in
+C:\Users\Martin\REPO\code-jam\Round-C-APAC-Test-2016\gRanks\gRanks\bin\Debug\practice.in
+C:\Users\Martin\REPO\code-jam\Round-C-APAC-Test-2016\gRanks\gRanks\bin\Debug\A-small-practice.in
+C:\Users\Martin\REPO\code-jam\Round-C-APAC-Test-2016\gRanks\gRanks\bin\Debug\gRanks.exe
+C:\Users\Martin\REPO\code-jam\Round-C-APAC-Test-2016\gRanks\gRanks\bin\Debug\gRanks.pdb
+C:\Users\Martin\REPO\code-jam\Round-C-APAC-Test-2016\gRanks\gRanks\obj\Debug\gRanks.csprojResolveAssemblyReference.cache
+C:\Users\Martin\REPO\code-jam\Round-C-APAC-Test-2016\gRanks\gRanks\obj\Debug\gRanks.exe
+C:\Users\Martin\REPO\code-jam\Round-C-APAC-Test-2016\gRanks\gRanks\obj\Debug\gRanks.pdb
